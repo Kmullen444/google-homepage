@@ -1,0 +1,33 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.lnav{
+    justify-content: space-around;
+    float: left;
+    text-align: center;
+}
+.rnav{
+    justify-content: flex-end;
+    display: inline;
+    text-align: center;
+}
+li a{
+    display: block;
+    text-decoration: none;
+}
+.logo{
+    display: block;
+    margin: auto;
+}
+.box{
+    width: 100%;
+    text-align: center;
+}
+#footer{
+    position: absolute;
+    bottom: o;
+    width: 100%;
+
+}

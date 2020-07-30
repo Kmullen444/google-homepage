@@ -10,7 +10,8 @@ ul{
 }
 .rnav{
     justify-content: flex-end;
-    display: inline;
+    display: flex;
+    flex-direction: row;
     text-align: center;
 }
 li a{
@@ -27,7 +28,13 @@ li a{
 }
 #footer{
     position: absolute;
-    bottom: o;
+    bottom: 0;
     width: 100%;
-
+    display: flex;
+    justify-content: center;
+}
+.nav li{
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
 }
